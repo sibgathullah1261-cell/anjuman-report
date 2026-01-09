@@ -458,7 +458,7 @@
 
           <div style="margin-top: 20px;">
             <label for="Wing">Submitting Wing</label>
-            <select name="data[Wing_Name]" id="Wing" disabled="" required="">
+            <select name="data[Wing Name]" id="Wing" disabled="" required="">
               <option value="">Select...</option>
             </select>
           </div>
@@ -485,7 +485,7 @@
 
           <div style="margin-bottom: 15px;">
             <label for="Poster">Program Poster</label>
-            <input type="file" name="data[poster]" id="Poster">
+            <input type="file" name="data[Poster]" id="Poster">
           </div>
 
           <div style="margin-bottom: 15px;">
@@ -508,7 +508,7 @@
             <div class="form-row">
               <div class="form-col">
                 <label>First Holder Class</label>
-                <select id="h1_class" onchange="loadStudents(this.value,'list1')">
+                <select id="h1_class" name="data[First Holder Class]" onchange="loadStudents(this.value,'list1')">
                   <option value="" disabled="" selected="">Select Class</option>
                   <option value="U7">Class U7</option>
                   <option value="U6">Class U6</option>
@@ -521,7 +521,7 @@
               </div>
               <div class="form-col">
                 <label>First Holder Name</label>
-                <input type="text" name="data[First_Holder]" id="firstHolder" list="list1" oninput="checkStudentStatus(this)">
+                <input type="text" name="data[First Holder]" id="firstHolder" list="list1" oninput="checkStudentStatus(this)">
                 <datalist id="list1"></datalist>
               </div>
             </div>
@@ -529,7 +529,7 @@
             <div class="form-row">
               <div class="form-col">
                 <label>Second Holder Class</label>
-                <select id="h2_class" onchange="loadStudents(this.value,'list2')">
+                <select id="h2_class" name="data[Second Holder Class]" onchange="loadStudents(this.value,'list2')">
                   <option value="" disabled="" selected="">Select Class</option>
                   <option value="U7">Class U7</option>
                   <option value="U6">Class U6</option>
@@ -542,7 +542,7 @@
               </div>
               <div class="form-col">
                 <label>Second Holder Name</label>
-                <input type="text" name="data[Second_Holder]" id="secondHolder" list="list2" oninput="checkStudentStatus(this)">
+                <input type="text" name="data[Second Holder]" id="secondHolder" list="list2" oninput="checkStudentStatus(this)">
                 <datalist id="list2"></datalist>
               </div>
             </div>
@@ -550,7 +550,7 @@
             <div class="form-row">
               <div class="form-col">
                 <label>Third Holder Class</label>
-                <select id="h3_class" onchange="loadStudents(this.value,'list3')">
+                <select id="h3_class" name="data[Third Holder Class]" onchange="loadStudents(this.value,'list3')">
                   <option value="" disabled="" selected="">Select Class</option>
                   <option value="U7">Class U7</option>
                   <option value="U6">Class U6</option>
@@ -563,7 +563,7 @@
               </div>
               <div class="form-col">
                 <label>Third Holder Name</label>
-                <input type="text" name="data[Third_Holder]" id="thirdHolder" list="list3" oninput="checkStudentStatus(this)">
+                <input type="text" name="data[Third Holder]" id="thirdHolder" list="list3" oninput="checkStudentStatus(this)">
                 <datalist id="list3"></datalist>
               </div>
             </div>
